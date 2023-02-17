@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root{
+verde: hsl #16f278;
+moradaC:hsl#7888fc;
+rosadoO:hsl#720773;
+verdeO:hsl#089045;
+azulM:hsl #031595;
+multi: rgba (255, 255, 255, .5);
+
+}
+
+*{
+    padding: 1;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right,#000, #7888fc, #720773,#000);
+    display: flex;
+    backdrop-filter: blur(10px);
+    align-items: center;
+    justify-content: center;
+}
+
+.controls{
+    width:100%;
+    padding: 0;
+    background: rgba(255, 255, 255, .5);
+    border-radius: 6px;
+    margin-bottom: 6px;
+    border: 1px solid #f8f8ff;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+.controls::before{
+    content: '';
+    position: absolute;
+    background: rgba(255, 255, 255, .15);
+    inset: 0;
+    transform: rotate(-5deg);
+    z-index: -1;
+}
+
+
+select[id="estado"]{
+   width: 100%;
+   display: block;
+   background:rgba(255, 255, 255, .15);
+   border-radius: 6px;
+   border: 1px solid #f8f8ff;
+   margin-bottom: 6px;
+   padding:1px;
+   position: relative;
+   font-size: 18px;
+
+}
+.bnt{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    border: 2px solid;
+    width:100%;
+    font-weight: 500;
+    background: #000; 
+    border-radius: 6px;
+    border: #f8f8ff;
+    padding: 0.5em 1.2em;
+    color: #16f278;
+    margin: 16px 0;
+    transition: all 1s ease;
+    position: relative;
+    font-size: 14px;
+}        
+
+select[id="gender"]{
+    width:100%;
+    background: rgba(255, 255, 255, .3);
+    display: block;
+    border-radius: 6px;
+    border: 1px solid #f8f8ff;
+    margin-bottom: 10px;
+    padding: 1px;
+    position: relative;
+    font-size: 18px;
+}
+.controls
+.select[id="gender"]
+.select[id="estado"]{
+   border: none;
+   outline: none;
+   padding: 1.5rem;
+   padding-left: calc(1rem * 3.5);
+   border-radius: 100px;
+   width: 100%;
+}
+.portada-logo img{
+width: 238px;
+}
+ img{
+    float:center;
+ }
+.Inf-R[h2]{
+position:absolute;
+}
+
+
+
